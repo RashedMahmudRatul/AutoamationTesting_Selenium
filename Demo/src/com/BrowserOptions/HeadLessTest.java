@@ -14,9 +14,10 @@ public class HeadLessTest {
 
 		WebDriver driver;
 		System.setProperty("webdriver.gecko.driver","F:\\SQA\\Tools\\geckodriver-v0.27.0-win64\\geckodriver.exe"); 
-		FirefoxOptions obj = new FirefoxOptions();
+
+		FirefoxOptions obj =  new FirefoxOptions();
 		obj.setHeadless(true);
-		driver = new FirefoxDriver(obj);
+		driver= new FirefoxDriver(obj);
 		
 		
 		
